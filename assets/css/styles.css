@@ -1,0 +1,167 @@
+/* font-family: 'Mr Dafoe', cursive;
+font-family: 'Roboto', sans-serif; */
+@font-face {
+    font-family: Santio;
+    src: url(../font/Santio\ Bold.otf) format('opentype');
+    src: url(../font/Santio\ Bold.ttf) format('truetype');
+}
+html{
+    font-size: 16px;
+}
+body{
+    margin: 0;
+}
+main{
+    background: url(../img/cleo-topper.jpg) center/cover no-repeat fixed;
+    position: relative;
+}
+main>img{
+    height: 30px;
+    width: 30px;
+    padding: 1vh 0 0 70%;
+}
+main>a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 2px solid #e7bc0e;
+    position: absolute;
+    top: 2.5vh;
+    left: 78%;
+}
+main>a:hover{
+    color: #e7bc0e;
+}
+main>h1{
+    font-family: Santio;
+    font-size: 3rem;
+    color: #efefef;
+    width: 20%;
+    padding: 10vh 0 5vh 10%
+}
+h2{
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 2rem;
+    color: #e7bc0e;
+    margin-bottom: 50vh;
+    padding-left: 10%;
+}
+h3:nth-of-type(1){
+    font-family: Santio;
+    font-size: 2rem;
+    color: #6bc1a3;
+    line-height: 40px;
+    padding:0 10% 0 15%;
+    margin-bottom: 50vh;
+}
+section img{
+    height: 150px;
+    width: 150px;
+    padding-left: 15%;
+    margin-bottom: 5vh;
+}
+section h3:not(:nth-of-type(1)){
+    font-family: Santio;
+    font-size: 2rem;
+    padding-left: 15%;
+}
+h3:nth-of-type(1) span{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+h3:nth-of-type(2){
+    color: #e7bc0e;
+    margin-bottom: 40vh;
+}
+h3:nth-of-type(2) span:first-of-type{
+    font-size: 7rem;
+    display: block;
+}
+h3:nth-of-type(2) span:nth-of-type(2){
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+h3:nth-of-type(3){
+    color: #cb91b6;
+    margin-bottom: 40vh;
+}
+h3:nth-of-type(3) span:nth-of-type(1){
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+h3:nth-of-type(3) span:nth-of-type(2){
+    font-size: 7rem;
+    display: block;
+}
+h3:nth-of-type(4){
+    color: #6bc1a3;
+    margin-bottom: 40vh;
+}
+h3:nth-of-type(4) span:nth-of-type(1){
+    font-size: 7rem;
+    display: block;
+}
+h3:nth-of-type(4) span:nth-of-type(2){
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+section h3:nth-of-type(5){
+    padding:0 10% 0 40%;
+    color: #7eb8e1;
+}
+section h3:nth-of-type(5) span{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+footer section:first-of-type{
+    height: 80vh;
+    width: 100%;
+    background: url(../img/kid.png) center/cover no-repeat;
+    display: block;
+    position: relative;
+}
+footer section:first-of-type::after{
+    content: "";
+    background: url(../img/see.png) center/cover no-repeat;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+footer section:nth-of-type(2){
+    background: #000;
+    color: #efefef;
+    font-family: 'Roboto', sans-serif;
+}
+footer h1{
+    margin: 0;
+    padding: 50vh 5% 10vh 10%;
+    font-family: Santio;
+    font-size: 4rem;
+}
+footer a{
+    display: block;
+    color: #efefef;
+    padding: 10px 0;
+    width: 130px;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #efefef;
+    margin: 0 0 30vh 10%;
+}
+footer a:hover{
+    box-shadow: 3px 3px #efefef;
+}
+footer p{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 1.5vh;
+    font-size: 0.8rem;
+}
+footer p span{
+    color: #6bc1a3;
+}
